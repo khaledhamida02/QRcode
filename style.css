@@ -1,6 +1,6 @@
 body{
     
-    background: hsl(216, 15%, 48%);
+    background: rgb(214, 226, 240);
     margin-top: 80px;
     
 }
@@ -14,7 +14,7 @@ body{
     background: hsl(0, 0%, 100%);
     text-align: center;
     padding: 20px 20px;
-    margin: 50px 550px  ;
+    margin: 50% 550px  ;
     
     border-radius: 15px;
     
