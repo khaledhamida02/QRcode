@@ -1,0 +1,43 @@
+body{
+    
+    background: hsl(216, 15%, 48%);
+    margin-top: 80px;
+    
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    background: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 20px 20px;
+    margin: 50px 550px  ;
+    
+    border-radius: 15px;
+    
+    
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.title{
+    font-size: 15px;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+.subtitle{
+    font-size: 15px;
+    text-align: unset;
+    
+}
