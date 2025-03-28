@@ -1,43 +1,63 @@
+:root {
+--white: hsl(0, 0%, 100%);
+--Slate1: hsl(212, 45%, 89%);
+--Slate2: hsl(216, 15%, 48%);
+--Slate3: hsl(218, 44%, 22%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     
-    background: rgb(214, 226, 240);
-    margin-top: 80px;
-    
-}
-
-
-.container{
+    background: var(--Slate1);
     display: flex;
     align-items: center;
     justify-items: center;
     flex-direction: column;
-    background: hsl(0, 0%, 100%);
-    text-align: center;
-    padding: 20px 20px;
-    margin: 50% 550px  ;
+    height: calc(100vh - 1px);
+    margin: 1.5rem;
+}
+
+
+section {
     
+    background: var(--white);
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 2rem ;
     border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     
     
 }
 
-img {
-    display: flex;
-    justify-content: center;
+section img {
     
-    height: 200px;
-    width: 200px;
+    justify-content: center;
+    margin-bottom: 1rem;
+    max-width: 100%;
     border-radius: 20px;
 }
 
-.title{
+section .title{
     font-size: 15px;
-    width: 200px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0 auto;
-}
-.subtitle{
-    font-size: 15px;
-    text-align: unset;
     
+}
+
+section .subtitle {
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+@media (min-width: 500px){
+    section{
+        width: 400px;
+    }
 }
